@@ -1,8 +1,8 @@
 import React from 'react';
 import ComingSoon from '../components/ComingSoon';
 
-const FullCourse: React.FC = () => {
-  return <ComingSoon />;
+const Cart: React.FC = () => {
+  return <ComingSoon title="My Cart" />;
 };
 
-export default FullCourse;
+export default Cart;
